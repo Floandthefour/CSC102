@@ -1,0 +1,39 @@
+/*
+Flo Pease
+10/8/22
+Stylesheet
+*/
+
+*{
+     margin-top: 10px;
+     text-align: center;
+}
+body {
+     font-weight:bolder;
+     color:white; 
+     text-shadow: 2px 2px 8px cyan, 1px -2px 4px deeppink; /*inserted blurred shadows above and below text so eyes don't
+     strain to see it against the background*/
+}
+#img 
+{
+     border:13px inset rgb(74, 143, 143); /*image needed a border to be more cohesive since I put in the background image.*/
+}
+background {
+     background-size:cover;
+     background-position:cover;
+} 
+h1 {
+     font: weight 500px; 
+}
+h2 {
+     font: weight 500px;
+}
+h3 {
+     font-size:300%;
+     font-variant-caps:all-petite-caps;
+}
+footer 
+{
+     font-weight:lighter;
+     font-size:60%;
+}
