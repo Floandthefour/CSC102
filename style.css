@@ -32,6 +32,16 @@ h3 {
      font-size:300%;
      font-variant-caps:all-petite-caps;
 }
+input {
+     background-color:aqua;
+     border:groove;
+     border-radius:50%;
+     color:indigo
+     font-size:20px;
+     padding:16px 32px;
+     margin: 4px 2px;
+     cursor:pointer;
+}
 footer 
 {
      font-weight:lighter;
