@@ -1,0 +1,59 @@
+/*
+Flo Pease
+6/10/22
+Table Assignment
+*/
+
+body
+{
+    padding: 60;
+    margin-left: 10px;
+    color: black;
+    background: linear-gradient(to right,
+    ivory 3%, lightcyan 8%, steelblue);
+    background-repeat: no-repeat;  
+    background-size: cover;   
+    text-align: left; 
+}
+th{
+    border: 3.5px ridge;
+    font-weight: bolder;
+}
+td{
+    border: 3.5px ridge;
+}
+h1{
+    float: left;
+    width: 500px;
+    padding-top: 100px;
+    font-size: 40px;
+    font-weight:800;
+    text-shadow: 4 5 3px darkslategray;
+    text-emphasis-position: under;
+    text-decoration-style: solid;
+    font-family: "poppins", "oswald";
+  
+}
+img{
+    float: left;
+    width: 290px;
+    padding-top: 0;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 2px;
+    border-radius: 50%;
+}
+table{
+    clear:both;
+    border: 3.5px ridge;
+    border-collapse: collapse; 
+    width: 70%;
+    height: 70%;
+    text-rendering: optimizeLegibility;  
+    font-size: 10px;
+    font-family: "abril fatface", "noto sans";
+    background: linear-gradient(to right,
+    ivory 3%, lightcyan 8%, steelblue);
+    background-repeat: no-repeat;  
+    background-size: cover;   
+}

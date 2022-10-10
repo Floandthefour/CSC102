@@ -1,0 +1,44 @@
+/* Flo Pease 
+10/9/22
+Final Project*/
+
+*{
+    margin-top: 10px;
+    text-align: center;
+}
+body {
+    font-weight:bolder;
+    color:white; 
+    text-shadow: 2px 2px 8px cyan, 1px -2px 4px deeppink; /*inserted blurred shadows above and below text so eyes don't
+    strain to see it against the background*/
+}
+#img 
+{
+    border:13px inset rgb(74, 143, 143); /*image needed a border to be more cohesive since I put in the background image.*/
+}
+background {
+    background-size:cover;
+    background-position:cover;
+} 
+header{
+    font-size: xx-large;
+}
+a{
+    position: relative;
+    border: 3px solid deeppink;
+    border-style: ridge;
+    border-radius: 5px;
+    background: mintcream;
+    color:darkolivegreen;
+    letter-spacing: .01em;
+    font-size: 1.75em;
+    font-weight: bolder;
+    padding: 10px 30px;
+    transition: .5s;
+}
+/* changes styling of the element id=button when the cursor hovers over it */
+a:hover{
+    letter-spacing: .25em;
+    background: deeppink;
+    color: indigo;
+    box-shadow: 0 0 35px (hotpink);
