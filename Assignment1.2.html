@@ -22,8 +22,8 @@ Blastoff
     <p1><script>startTheCountdown()</script></p1><!--calls the function written in external js file that starts the countdown-->
     <h3 id="visualcountdown">If access isn't granted after 10 seconds, please reload page and try again</h3> <!-- visualcountdown is #Id 
     I gave to the countdown being viewed (as written within the javascript document)-->  
-    <input type="button" value="Play" onclick="playAudio();"/> <!--button to play audia-->
-    <input type="button" value="Stop" onclick="pauseAudio();"/><!--button to stop audia-->
+    <input type="button" id="playButton" value="Play" onclick="playAudio();"/> <!--button to play audia-->
+    <input type="button" id="'stopButton" value="Stop" onclick="pauseAudio();"/><!--button to stop audia-->
        
        <script>
           var audio = new Audio("Stellar.mp3"); /*music that will play when button is pushed*/
@@ -32,12 +32,16 @@ Blastoff
        {
             
            audio.play(); 
+           document.getElementById("playButton").disabled=true;
+           document.getElementById("stopButton").disabled=false;
        }
        
            function pauseAudio() /*function that causes music to stop when button is pushed*/ 
        {
            ;
            audio.pause();
+           document.getElementById("stopButton").disabled=true;
+           document.getElementById("playButton").disabled=false;
        }
        </script>
 <footer>Background courtesy of <a href="https://pixy.org">PIXY#ORG</a> </footer>
